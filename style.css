@@ -1,0 +1,137 @@
+header {
+    background: rgb(14, 14, 56);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    gap: 0.75rem;
+    position: sticky;
+    top: 0;
+    
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.bmenu{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    color: white;
+}
+
+.menu:hover{
+    transform: scale(1.20);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    max-width: none;
+    background: rgb(24, 131, 95);
+    color:white;
+    padding: 5rem 1.25rem;
+}
+
+.hero h1{
+    font-size: 2.6rem;
+    max-width: none;
+    margin-bottom: 1rem;
+}
+
+
+.hero p{
+    max-width: 50ch;
+    margin-bottom: 1.75rem;
+}
+
+.vmp{
+    display: inline-block;
+    background:orange;
+    color:black;
+    font-weight: 700;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.vmp:hover{
+    background: white;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+}
+
+.tags li{
+    background: rgb(236, 230, 220);
+    border: 1px solid teal;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.card{
+    background: rgb(248, 245, 238);
+    padding: 1.5rem;
+    border-top: 5px solid rgb(250, 136, 43);
+}
+
+
+.card h3 {margin-bottom: 0.5rem;}
+.card p {margin-bottom: 0.5rem;}
+
+.tools{
+    font-size: 0.9rem;
+    color: rgb(173, 168, 159);
+}
+
+#contact{
+    background: rgb(228, 225, 219);
+    max-width: none;
+}
+#contact h2, #contact p {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: rgb(18, 18, 43);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+body{
+    line-height: 1.6;
+    color: text;
+    background: white;
+}
+
+section{
+    padding: 3.5rem 1.25rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+h1, h2, h3 {line-height: 1.2;}
+h2{
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+}
